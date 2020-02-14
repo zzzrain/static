@@ -1,0 +1,100 @@
+body {
+    font-family: SourceHanSansCN-Medium;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #2f2f2f;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    display: block;
+    content: '';
+    overflow: hidden;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main .bread {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.main .side {
+    width: 304px;
+}
+
+.main .side .side-top {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.main .side .side-top .wx-service {
+    position: absolute;
+    top: 168px;
+    left: 174px;
+    height: 16px;
+}
+
+.main .side .side-top .wx-service p {
+    font-size: 16px;
+    color: #414245;
+}
+
+.main .side .side-bot {
+    background-color: #ffffff;
+    border: solid 1px #e5e5e5;
+    text-align: center;
+}
+
+.main .side .side-bot .side-bot-tit {
+    display: inline-block;
+    width: 127px;
+    height: 29px;
+    background-color: #95d980;
+    border-radius: 14px 0 14px 0;
+    line-height: 29px;
+    color: #fff;
+    margin: 0 88px 28px 88px;
+}
+
+.main .side .side-bot .qq-block {
+    width: 76px;
+    margin-left: 42px;
+}
+
+.main .side .side-bot .wx-block {
+    width: 109px;
+    margin-left: 55px;
+}
+
+.main .side .side-bot .side-bot-txt {
+    margin-top: 5px;
+}

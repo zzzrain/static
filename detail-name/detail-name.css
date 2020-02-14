@@ -1,0 +1,116 @@
+@import "../common/common.css";
+
+.main .detail-content {
+    width: 808px;
+    height: 1851px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 9px 0 rgba(255, 111, 131, 0.24);
+}
+
+.main .detail-content .basic-title {
+    font-size: 22px;
+    color: #f03f50;
+    margin: 28px 0;
+    padding: 0 17px;
+}
+
+.main .detail-content .basic-cont {
+    padding: 0 17px 20px 17px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.main .detail-content .detail-content-basic .basic-cont {
+    padding: 0 0 20px 0;
+}
+
+.main .detail-content .detail-content-basic .basic-list {
+    padding: 0 17px;
+}
+
+.main .detail-content .detail-content-basic .basic-list li {
+    width: 50%;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.main .detail-content .detail-content-basic .basic-list .basic-list-last {
+    margin: 0;
+}
+
+.main .detail-content .detail-content-basic .basic-list-title {
+    display: inline-block;
+    width: 70px;
+    font-weight: bold;
+    text-align-last: justify;
+}
+
+.main .detail-content .detail-content-basic .basic-list-icon {
+    font-weight: bold;
+}
+
+.main .detail-content .detail-content-basic .name-list-list {
+    padding: 0 0 30px 37px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.main .detail-content .detail-content-basic .name-list-list-item {
+    margin-right: 10px;
+}
+
+.main .detail-content .detail-content-basic .list-item-l {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 39px;
+    font-weight: bold;
+    border: 1px solid #2f2f2f;
+    margin-right: 10px;
+}
+
+.main .detail-content .detail-content-basic .list-item-r {
+
+}
+
+.main .detail-content .detail-content-explain .explain-title-list li {
+    width: 50%;
+}
+
+.main .detail-content .detail-content-explain .explain-title-list .ch {
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 39px;
+    font-weight: bold;
+    border: 1px solid #f03f50;
+    margin-right: 10px;
+    color: #f03f50;
+}
+
+.main .detail-content .detail-content-detail .detail-table {
+    width: 356px;
+    height: 220px;
+    margin-right: 34px;
+    text-align: center;
+    border-top: solid 1px #5d5d5d;
+    border-left: solid 1px #5d5d5d;
+}
+
+.main .detail-content .detail-content-detail .detail-table tr {
+}
+
+.main .detail-content .detail-content-detail .detail-table th {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    height: 45px;
+}
+.main .detail-content .detail-content-detail .detail-table td {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+}
+
+.main .detail-content .detail-content-detail .detail-table .detail-table-title {
+    font-weight: bold;
+}
