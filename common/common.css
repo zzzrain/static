@@ -33,6 +33,10 @@ ul,li {
     float: right;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .center {
     text-align: center;
 }
@@ -40,6 +44,13 @@ ul,li {
 .main {
     width: 1200px;
     margin: 0 auto;
+}
+
+.main .content {
+    width: 808px;
+    margin-bottom: 36px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 9px 0 rgba(255, 111, 131, 0.24);
 }
 
 .main .bread {

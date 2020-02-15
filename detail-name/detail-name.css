@@ -1,64 +1,57 @@
 @import "../common/common.css";
 
-.main .detail-content {
-    width: 808px;
-    height: 1851px;
-    background-color: #ffffff;
-    box-shadow: 0 3px 9px 0 rgba(255, 111, 131, 0.24);
-}
-
-.main .detail-content .basic-title {
+.main .content-detail .basic-title {
     font-size: 22px;
     color: #f03f50;
     margin: 28px 0;
     padding: 0 17px;
 }
 
-.main .detail-content .basic-cont {
+.main .content-detail .basic-cont {
     padding: 0 17px 20px 17px;
     border-bottom: solid 1px #e5e5e5;
 }
 
-.main .detail-content .detail-content-basic .basic-cont {
+.main .content-detail .content-detail-basic .basic-cont {
     padding: 0 0 20px 0;
 }
 
-.main .detail-content .detail-content-basic .basic-list {
+.main .content-detail .content-detail-basic .basic-list {
     padding: 0 17px;
 }
 
-.main .detail-content .detail-content-basic .basic-list li {
+.main .content-detail .content-detail-basic .basic-list li {
     width: 50%;
     margin-bottom: 30px;
     float: left;
 }
 
-.main .detail-content .detail-content-basic .basic-list .basic-list-last {
+.main .content-detail .content-detail-basic .basic-list .basic-list-last {
     margin: 0;
 }
 
-.main .detail-content .detail-content-basic .basic-list-title {
+.main .content-detail .content-detail-basic .basic-list-title {
     display: inline-block;
     width: 70px;
     font-weight: bold;
     text-align-last: justify;
 }
 
-.main .detail-content .detail-content-basic .basic-list-icon {
+.main .content-detail .content-detail-basic .basic-list-icon {
     font-weight: bold;
 }
 
-.main .detail-content .detail-content-basic .name-list-list {
+.main .content-detail .content-detail-basic .name-list-list {
     padding: 0 0 30px 37px;
     margin-bottom: 30px;
     border-bottom: solid 1px #e5e5e5;
 }
 
-.main .detail-content .detail-content-basic .name-list-list-item {
+.main .content-detail .content-detail-basic .name-list-list-item {
     margin-right: 10px;
 }
 
-.main .detail-content .detail-content-basic .list-item-l {
+.main .content-detail .content-detail-basic .list-item-l {
     width: 58px;
     height: 58px;
     text-align: center;
@@ -69,15 +62,16 @@
     margin-right: 10px;
 }
 
-.main .detail-content .detail-content-basic .list-item-r {
+.main .content-detail .content-detail-basic .list-item-r {
 
 }
 
-.main .detail-content .detail-content-explain .explain-title-list li {
+.main .content-detail .content-detail-explain .explain-title-list li {
     width: 50%;
 }
 
-.main .detail-content .detail-content-explain .explain-title-list .ch {
+.main .content-detail .content-detail-explain .explain-title-list .ch {
+    display: inline-block;
     width: 58px;
     height: 58px;
     text-align: center;
@@ -89,7 +83,122 @@
     color: #f03f50;
 }
 
-.main .detail-content .detail-content-detail .detail-table {
+.main .content-detail .content-detail-explain .explain-title-list .en {
+    padding-top: 40px;
+}
+
+.main .content-detail .content-detail-explain .explain-title {
+    padding: 0 0 20px 20px;
+}
+
+.main .content-detail .content-detail-explain .explain-content .explain-content-list-item {
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+.main .content-detail .content-detail-explain .explain-content .explain-content-list-item .list-item-title {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.main .content-detail .content-detail-explain .explain-content .explain-content-list-item .list-item-cont {
+    width: 88%;
+}
+
+.main .content-detail .content-detail-explain .explain-content .short {
+    width: 48%;
+}
+
+.main .content-detail .content-detail-explain .explain-content .short .list-item-cont{
+    width: 78%;
+}
+
+.main .content-detail .content-detail-explain .explain-content .sl {
+    margin-right: 4%;
+}
+
+.main .content-detail .content-detail-psychology .basic-cont {
+    padding: 0;
+}
+
+.main .content-detail .content-detail-psychology .psychology-cont {
+    padding: 0 17px 20px 17px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.main .content-detail .content-detail-psychology .psychology-chart {
+    padding: 50px 95px 40px 95px;
+}
+
+.main .content-detail .content-detail-psychology .psychology-chart .chart-list-item img {
+    margin-bottom: 5px;
+}
+
+.main .content-detail .content-detail-psychology .psychology-chart .chart-list-item:nth-child(2) {
+    margin: 0 72px;
+}
+
+.main .content-detail .content-detail-zodiac ul {
+    margin: 0 14px;
+    border: solid 1px #5d5d5d;
+}
+
+.main .content-detail .content-detail-zodiac li {
+    padding: 12px;
+    border-bottom: solid 1px #5d5d5d;
+}
+
+.main .content-detail .content-detail-zodiac .zodiac-good {
+    margin-bottom: 30px;
+}
+
+.main .content-detail .content-detail-zodiac .zodiac-good .zodiac-item:first-child {
+    background: #f03f50;
+    text-align: center;
+    line-height: 64px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.main .content-detail .content-detail-zodiac .zodiac-good .zodiac-item:last-child {
+    border: none;
+}
+
+.main .content-detail .content-detail-zodiac .zodiac-bad .zodiac-item:first-child {
+    background: #a2a2a2;
+    text-align: center;
+    line-height: 64px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.main .content-detail .content-detail-zodiac .zodiac-bad .zodiac-item:last-child {
+    border: none;
+}
+
+.main .content-detail .content-detail-pentagon .pentagon-table {
+    width: 749px;
+    text-align: center;
+    border-top: solid 1px #5d5d5d;
+    border-left: solid 1px #5d5d5d;
+    margin: 0 13px;
+}
+
+.main .content-detail .content-detail-pentagon .pentagon-table th {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    height: 42px;
+    background: #f03f50;
+    color: #fff;
+}
+.main .content-detail .content-detail-pentagon .pentagon-table td {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    height: 42px;
+}
+
+.main .content-detail .content-detail-detail .detail-table {
     width: 356px;
     height: 220px;
     margin-right: 34px;
@@ -98,19 +207,30 @@
     border-left: solid 1px #5d5d5d;
 }
 
-.main .detail-content .detail-content-detail .detail-table tr {
+.main .content-detail .content-detail-detail .detail-table tr {
 }
 
-.main .detail-content .detail-content-detail .detail-table th {
+.main .content-detail .content-detail-detail .detail-table th {
     border-right: solid 1px #5d5d5d;
     border-bottom: solid 1px #5d5d5d;
     height: 45px;
 }
-.main .detail-content .detail-content-detail .detail-table td {
+.main .content-detail .content-detail-detail .detail-table td {
     border-right: solid 1px #5d5d5d;
     border-bottom: solid 1px #5d5d5d;
 }
 
-.main .detail-content .detail-content-detail .detail-table .detail-table-title {
+.main .content-detail .content-detail-detail .detail-table .detail-table-title {
     font-weight: bold;
+}
+
+.main .content-detail .content-detail-more {
+    width: 333px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 25px;
+    background-color: #f03f50;
+    color: #fff;
+    margin: 30px auto;
 }
