@@ -1,129 +1,42 @@
 @import "../common/common.css";
 
-.main .content {
-    width: 808px;
-    height: 1851px;
-    background-color: #ffffff;
-    box-shadow: 0 3px 9px 0 rgba(255, 111, 131, 0.24);
-}
-
-.main .content .basic-title {
+.main .content-pay .basic-title {
     font-size: 22px;
     color: #f03f50;
     margin: 28px 0;
 }
 
-.main .content .basic-cont {
-
+.main .content-pay .basic-cont,
+.main .content-pay .content-pay-list .pay-list-item {
+    border: solid 4px #2f2f2f;
 }
 
-.main .content .content-basic {
-    padding: 0 17px 20px 17px;
-    border-bottom: solid 1px #e5e5e5;
+.main .content-pay .content-pay-list .pay-list-item {
+    padding: 18px;
 }
 
-.main .content .content-basic .basic-list {
-
+.main .content-pay .content-pay-list .pay-list-item .pay-list-img {
+    margin-right: 16px;
 }
 
-.main .content .content-basic .basic-list li {
-    width: 50%;
-    margin-bottom: 30px;
-    float: left;
-}
-
-.main .content .content-basic .basic-list .basic-list-last {
-    margin: 0;
-}
-
-.main .content .content-basic .basic-list-title {
-    display: inline-block;
-    width: 70px;
+.main .content-pay .content-pay-list .pay-list-item .pay-list-tit {
+    width: 1000px;
+    font-size: 22px;
     font-weight: bold;
-    text-align-last: justify;
+    margin-bottom: 10px;
 }
 
-.main .content .content-basic .basic-list-icon {
-    font-weight: bold;
+.main .content-pay .content-pay-list .pay-list-item .pay-list-link {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: #f03f50;
+    color: #fff;
+    cursor: pointer;
 }
 
-.main .content .content-detail {
-    padding: 0 17px;
-    border-bottom: solid 1px #e5e5e5;
-}
 
-.main .content .content-detail .detail-table {
-    width: 356px;
-    height: 220px;
-    margin-right: 34px;
-    text-align: center;
-    border-top: solid 1px #5d5d5d;
-    border-left: solid 1px #5d5d5d;
-}
-
-.main .content .content-detail .detail-table tr {
-}
-
-.main .content .content-detail .detail-table th {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-    height: 45px;
-}
-.main .content .content-detail .detail-table td {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-}
-
-.main .content .content-detail .detail-table .detail-table-title {
-    font-weight: bold;
-}
-
-.main .content .content-detail .detail-charts {
-    width: 358px;
-    height: 237px;
-}
-
-.main .content .content-detail .detail-explain {
-    line-height: 22px;
-    margin: 36px 0 17px 0;
-}
-
-.main .content .content-detail .detail-explain span {
+.main .content-pay .content-pay-list .pay-list-item .pay-list-cont span {
     color: #f03f50;
-}
-
-.main .content .content-list {
-    padding: 0 17px;
-}
-
-.main .content .content-list .name-list-item {
-    border: solid 1px #272727;
-    margin-bottom: 30px;
-    padding: 20px 10px 20px 20px;
-}
-
-.main .content .content-list .name-list-list-item {
-    margin-right: 10px;
-}
-
-.main .content .content-list .name-list-link {
-    display: inline-block;
-    color: #272727;
-    line-height: 62px;
-    margin-left: 100px;
-}
-
-.main .content .content-list .list-item-l {
-    width: 58px;
-    height: 58px;
-    text-align: center;
-    line-height: 58px;
-    font-size: 39px;
-    font-weight: bold;
-    border: 1px solid #2f2f2f;
-    margin-right: 10px;
-}
-
-.main .content .content-list .list-item-r {
-
 }

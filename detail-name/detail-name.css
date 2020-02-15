@@ -156,7 +156,7 @@
 .main .content-detail .content-detail-zodiac .zodiac-good .zodiac-item:first-child {
     background: #f03f50;
     text-align: center;
-    line-height: 64px;
+    line-height: 40px;
     font-size: 25px;
     color: #fff;
 }
@@ -168,7 +168,7 @@
 .main .content-detail .content-detail-zodiac .zodiac-bad .zodiac-item:first-child {
     background: #a2a2a2;
     text-align: center;
-    line-height: 64px;
+    line-height: 40px;
     font-size: 25px;
     color: #fff;
 }
@@ -198,6 +198,10 @@
     height: 42px;
 }
 
+.main .content-detail .content-detail-detail .basic-cont {
+    padding: 0 30px 20px 30px;
+}
+
 .main .content-detail .content-detail-detail .detail-table {
     width: 356px;
     height: 220px;
@@ -222,6 +226,15 @@
 
 .main .content-detail .content-detail-detail .detail-table .detail-table-title {
     font-weight: bold;
+}
+
+.main .content-detail .content-detail-detail .detail-explain {
+    line-height: 22px;
+    margin: 36px 0 17px 0;
+}
+
+.main .content-detail .content-detail-detail .detail-explain span {
+    color: #f03f50;
 }
 
 .main .content-detail .content-detail-more {

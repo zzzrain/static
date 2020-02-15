@@ -3,57 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" href="./detail-msg.css">
+  <link rel="stylesheet" href="./pay.css">
 </head>
 <body>
   <div class="header"></div>
   <div class="main clear">
-    <div class="bread fl">
-      <span class="bread-name">首页</span>
-      <span class="bread-link">/</span>
-      <span class="bread-name">已购买订单</span>
-    </div>
-    <div class="content fl">
-      <div class="content-basic">
-        <div class="basic-title">基本信息</div>
+    <div class="content-pay fl">
+      <div class="content-pay-basic">
+        <div class="basic-title">订单信息</div>
         <div class="basic-cont">
-          <ul class="basic-list clear">
-            <li class="basic-list-l">
+          <ul class="pay-basic-cont clear">
+            <li>
+              <span class="basic-list-title">订单编号</span>
+              <span class="basic-list-icon">：</span>
+              <span class="basic-list-cont">2019120427147721</span>
+            </li>
+            <li>
               <span class="basic-list-title">姓氏</span>
               <span class="basic-list-icon">：</span>
               <span class="basic-list-cont">张</span>
             </li>
-            <li class="basic-list-r">
+            <li>
               <span class="basic-list-title">性别</span>
               <span class="basic-list-icon">：</span>
               <span class="basic-list-cont">男</span>
             </li>
-            <li class="basic-list-l">
+            <li>
               <span class="basic-list-title">出生时间</span>
               <span class="basic-list-icon">：</span>
-              <span class="basic-list-cont">2019-11-25  15:51:00</span>
+              <span class="basic-list-cont">公历2019-11-25  15:51:00</span>
             </li>
-            <li class="basic-list-r">
+            <li>
               <span class="basic-list-title">起名字数</span>
               <span class="basic-list-icon">：</span>
               <span class="basic-list-cont">三个字</span>
             </li>
-            <li class="basic-list-l basic-list-last">
-              <span class="basic-list-title">五行</span>
-              <span class="basic-list-icon">：</span>
-              <span class="basic-list-cont">首字五行：默认 末字五行：默认</span>
-            </li>
-            <li class="basic-list-r basic-list-last">
+            <li>
               <span class="basic-list-title">固定字</span>
               <span class="basic-list-icon">：</span>
               <span class="basic-list-cont">没有填写</span>
             </li>
+            <li class="basic-list-last">
+              <span class="basic-list-title">五行</span>
+              <span class="basic-list-icon">：</span>
+              <span class="basic-list-cont">首字五行：默认 末字五行：默</span>
+            </li>
           </ul>
+          <ul class="pay-basic-discount clear">
+            <li>
+              <div class="discount-wrap">
+                <p class="discount-detail">100个吉祥美名</p>
+                <p class="discount-price">优惠价:￥<span class="rmb">38</span></p>
+                <p class="discount-discount"><span class="rmb">￥99元</span> | 立省61</p>
+                <p class="discount-icon"></p>
+              </div>
+            </li>
+            <li>
+              <div class="discount-wrap">
+                <p class="discount-detail">100个吉祥美名</p>
+                <p class="discount-price">优惠价:￥<span class="rmb">38</span></p>
+                <p class="discount-discount"><span class="rmb">￥99元</span> | 立省61</p>
+                <p class="discount-icon"></p>
+              </div>
+            </li>
+          </ul>
+          <div class="pay-basic-compute">支付金额:
+            <span class="pay-basic-rmb">38元</span>
+            <span class="pay-basic-o">(原价99元)</span>
+          </div>
+          <div class="pay-basic-code clear">
+            <div class="fl">
+              <img src="" alt="">
+              <span>微信支付</span>
+            </div>
+            <div class="fl">
+              <img src="" alt="">
+              <span>支付宝支付</span>
+            </div>
+          </div>
+          <div class="pay-basic-res">
+            <p>付款成功后，将跳转到名字列表页面</p>
+            <span>*支付成功后，即可查看 100套吉祥美名 ，包含字义解释、八字五行分析、生肖分析，每个吉名的寓意出处和文化内涵分析。</span>
+          </div>
         </div>
       </div>
-      <div class="content-detail">
-        <div class="basic-title">八字五行分析</div>
+      <div class="content-pay-detail">
+        <div class="basic-title">起名基本信息</div>
         <div class="basic-cont clear">
+          <div class="detail-title fl">八字五行分析</div>
           <table class="detail-table fl" cellpadding="0" cellspacing="0">
             <thead>
               <tr>
@@ -106,204 +143,94 @@
           </div>
         </div>
       </div>
-      <div class="content-list">
-        <div class="basic-title center">我们为您精选的100个吉祥美名</div>
+      <div class="content-pay-list">
+        <ul class="pay-list">
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/word_box_red.png" alt=""></div>
+            <div class="pay-list-tit fl">生肖宜用字</div>
+            <div class="pay-list-cont fl">
+              <p><span>猪</span> 生肖猪年生人，取名用字宜</p>
+              <p>有“豆”字、“米”字、“鱼”字，福禄双收，名利永在，富贵清洁；</p>
+              <p>有“氵”字、“金”字、“玉”字，智勇双全，精明公正，克己助人，温和贤淑；</p>
+              <p>有“氵”字、“金”字、“玉”字，智勇双全，精明公正，克己助人，温和贤淑；</p>
+              <p>有“亻”字、“山”字、“土”字、“艹”字，英俊才人，重义信用。</p>
+            </div>
+          </li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">星座分析</div>
+            <div class="pay-list-cont fl">
+              <p><span>射手座   11月23日 ~ 12月21日</span></p>
+              <p>射手座优点：乐观、热爱自由；缺点：粗心、不自信。使用具有宽容、谨慎、自律、信仰的字义暗示，很好的改善射手座缺乏耐心的性格缺点。</p>
+            </div>
+          </li>
+          <li><img src="" alt=""></li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">名字音形义解析</div>
+            <div class="pay-list-cont fl">字音、五行、笔画都做精心挑选，字音优美响亮，字义吉祥大气，笔画简单好写，五行契合宝宝生辰八字</div>
+            <div class="pay-list-link fl">查看名字全部详情</div>
+          </li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">五格三才</div>
+            <div class="pay-list-cont fl">字音、五行、笔画都做精心挑选，字音优美响亮，字义吉祥大气，笔画简单好写，五行契合宝宝生辰八字</div>
+            <div class="pay-list-link fl">查看名字全部详情</div>
+          </li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">诗经楚辞起名</div>
+            <div class="pay-list-cont fl">字音、五行、笔画都做精心挑选，字音优美响亮，字义吉祥大气，笔画简单好写，五行契合宝宝生辰八字</div>
+            <div class="pay-list-link fl">查看名字全部详情</div>
+          </li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">唐诗宋词起名</div>
+            <div class="pay-list-cont fl">字音、五行、笔画都做精心挑选，字音优美响亮，字义吉祥大气，笔画简单好写，五行契合宝宝生辰八字</div>
+            <div class="pay-list-link fl">查看名字全部详情</div>
+          </li>
+          <li class="pay-list-item clear">
+            <div class="pay-list-img fl"><img src="../images/" alt=""></div>
+            <div class="pay-list-tit fl">定字起名</div>
+            <div class="pay-list-cont fl">字音、五行、笔画都做精心挑选，字音优美响亮，字义吉祥大气，笔画简单好写，五行契合宝宝生辰八字</div>
+            <div class="pay-list-link fl">查看名字全部详情</div>
+          </li>
+        </ul>
+      </div>
+      <div class="content-pay-qa">
+        <div class="qa-title">常见问题</div>
         <div class="basic-cont">
-          <ul class="name-list">
-            <li class="name-list-item clear">
-              <ul class="name-list-list fl clear">
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <a href="#" class="name-list-link fl">查看详情</a>
+          <ul class="qa-list">
+            <li>
+              <p class="qa-q"><span>问</span>付了款不能没拿到名字或不记得订单怎么办？</p>
+              <p class="qa-a">
+                付款成功后会为您填写的手机号发一条短信，里面起名订单查询地址， 点击短信中地址输入手机号即可查看起名结果，如果没收到短信，请点 订单查询去
+                查询订单，输入你下单时填写的手机号，查到订单号点击订单号即可查看起名结果。 如果付款无短信也查不到订单。请加联系网站上在线客服，客服会为
+                您处理。
+              </p>
             </li>
-            <li class="name-list-item clear">
-              <ul class="name-list-list fl clear">
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <a href="#" class="name-list-link fl">查看详情</a>
+            <li>
+              <p class="qa-q"><span>问</span>付款起名与免费起名的区别在哪？</p>
+              <p class="qa-a"></p>
             </li>
-            <li class="name-list-item clear">
-              <ul class="name-list-list fl clear">
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="name-list-list-item fl clear">
-                  <div class="list-item-l fl">张</div>
-                  <div class="list-item-r fl">
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">拼音：</span>
-                      <span class="list-item-r-cont">ZHANG</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">五行：</span>
-                      <span class="list-item-r-cont">火</span>
-                    </div>
-                    <div class="list-item-r-item">
-                      <span class="list-item-r-name">笔画：</span>
-                      <span class="list-item-r-cont">7画</span>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <a href="#" class="name-list-link fl">查看详情</a>
+            <li>
+              <p class="qa-q"><span>问</span>在线智能起名是怎么来起名的？</p>
+              <p class="qa-a"></p>
+            </li>
+            <li>
+              <p class="qa-q"><span>问</span>贵公司与其它网站起名系统区别在哪？</p>
+              <p class="qa-a"></p>
+            </li>
+            <li>
+              <p class="qa-q"><span>问</span>什么是喜用神？</p>
+              <p class="qa-a"></p>
             </li>
           </ul>
-        </div>
-        <div class="content-list-page"></div>
-      </div>
-    </div>
-    <div class="side fl">
-      <div class="side-top">
-        <img src="../images/right_top.png" alt="">
-        <div class="wx-service">
-          <img src="../images/right_top_wechat.png" alt="">
-          <p>扫码联系客服</p>
-        </div>
-      </div>
-      <div class="side-bot clear">
-        <p class="side-bot-tit fl">宝妈经验</p>
-        <div class="qq-block fl">
-          <img src="../images/qq.png" alt="">
-          <p class="side-bot-txt">QQ客服</p>
-        </div>
-        <div class="wx-block fl">
-          <img src="../images/wechat.png" alt="">
-          <p class="side-bot-txt">扫一扫添加微信</p>
         </div>
       </div>
     </div>
   </div>
+    </div>>
   <div class="foot"></div>
 </body>
 </html>
