@@ -1,5 +1,9 @@
 @import "../common/common.css";
 
+body {
+    background: #fff;
+}
+
 .main .content-pay {
     width: 1140px;
     margin: 0 30px;
@@ -18,16 +22,16 @@
 }
 
 .main .content-pay .basic-cont {
-    padding: 10px;
+    padding: 8px;
 }
 
-.main .content-pay .basic-cont .cont-wrap {
+.main .content-pay .cont-wrap {
     position: relative;
     border: solid 1px #2f2f2f;
     padding: 18px;
 }
 
-.main .content-pay .basic-cont .cont-wrap:before {
+.main .content-pay .cont-wrap:before {
     display: block;
     content: '';
     width: 9px;
@@ -39,7 +43,7 @@
     left: 0;
 }
 
-.main .content-pay .basic-cont .cont-wrap:after {
+.main .content-pay .cont-wrap:after {
     display: block;
     content: '';
     width: 9px;
@@ -193,47 +197,15 @@
 
 .main .content-pay .content-pay-detail .detail-table {
     width: 525px;
-    height: 220px;
-    margin-right: 34px;
-    text-align: center;
-    border-top: solid 1px #5d5d5d;
-    border-left: solid 1px #5d5d5d;
-}
-
-.main .content-pay .content-pay-detail .detail-table tr {
-}
-
-.main .content-pay .content-pay-detail .detail-table th {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-    height: 45px;
-}
-.main .content-pay .content-pay-detail .detail-table td {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-}
-
-.main .content-pay .content-pay-detail .detail-table .detail-table-title {
-    font-weight: bold;
-}
-
-.main .content-pay .content-pay-detail .detail-charts {
-    width: 358px;
-    height: 237px;
-}
-
-.main .content-pay .content-pay-detail .detail-explain {
-    line-height: 22px;
-    margin: 36px 0 17px 0;
-}
-
-.main .content-pay .content-pay-detail .detail-explain span {
-    color: #f03f50;
 }
 
 .main .content-pay .content-pay-list .pay-list-item {
-    padding: 18px;
+    padding: 8px;
     margin-bottom: 30px;
+}
+
+.main .content-pay .content-pay-list .pay-list-item .cont-wrap {
+    padding: 18px;
 }
 
 .main .content-pay .content-pay-list .pay-list-item-img {
@@ -267,6 +239,7 @@
     background: #f03f50;
     color: #fff;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 .main .content-pay .content-pay-list .pay-list-item .pay-list-link b {

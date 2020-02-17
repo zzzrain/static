@@ -37,46 +37,6 @@
     border-bottom: solid 1px #e5e5e5;
 }
 
-.main .content-list .content-list-detail .detail-table {
-    width: 356px;
-    height: 220px;
-    margin-right: 34px;
-    text-align: center;
-    border-top: solid 1px #5d5d5d;
-    border-left: solid 1px #5d5d5d;
-}
-
-.main .content-list .content-list-detail .detail-table tr {
-}
-
-.main .content-list .content-list-detail .detail-table th {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-    height: 45px;
-}
-.main .content-list .content-list-detail .detail-table td {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-}
-
-.main .content-list .content-list-detail .detail-table .detail-table-title {
-    font-weight: bold;
-}
-
-.main .content-list .content-list-detail .detail-charts {
-    width: 358px;
-    height: 237px;
-}
-
-.main .content-list .content-list-detail .detail-explain {
-    line-height: 22px;
-    margin: 36px 0 17px 0;
-}
-
-.main .content-list .content-list-detail .detail-explain span {
-    color: #f03f50;
-}
-
 .main .content-list .content-list-list {
     padding: 0 17px;
 }
@@ -84,7 +44,7 @@
 .main .content-list .content-list-list .name-list-item {
     border: solid 1px #272727;
     margin-bottom: 30px;
-    padding: 20px 10px 20px 20px;
+    padding: 20px 12px 20px 20px;
 }
 
 .main .content-list .content-list-list .name-list-list-item {
@@ -95,7 +55,9 @@
     display: inline-block;
     color: #272727;
     line-height: 62px;
-    margin-left: 100px;
+    padding-right: 21px;
+    text-decoration: none;
+    background: url('../images/button.png') no-repeat center right;
 }
 
 .main .content-list .content-list-list .list-item-l {
@@ -105,8 +67,8 @@
     line-height: 58px;
     font-size: 39px;
     font-weight: bold;
-    border: 1px solid #2f2f2f;
     margin-right: 10px;
+    background: url('../images/word_box_black.png');
 }
 
 .main .content-list .content-list-list .list-item-r {

@@ -58,8 +58,8 @@
     line-height: 58px;
     font-size: 39px;
     font-weight: bold;
-    border: 1px solid #2f2f2f;
     margin-right: 10px;
+    background: url('../images/word_box_black.png');
 }
 
 .main .content-detail .content-detail-basic .list-item-r {
@@ -78,9 +78,9 @@
     line-height: 58px;
     font-size: 39px;
     font-weight: bold;
-    border: 1px solid #f03f50;
     margin-right: 10px;
     color: #f03f50;
+    background: url('../images/word_box_red.png');
 }
 
 .main .content-detail .content-detail-explain .explain-title-list .en {
@@ -200,41 +200,6 @@
 
 .main .content-detail .content-detail-detail .basic-cont {
     padding: 0 30px 20px 30px;
-}
-
-.main .content-detail .content-detail-detail .detail-table {
-    width: 356px;
-    height: 220px;
-    margin-right: 34px;
-    text-align: center;
-    border-top: solid 1px #5d5d5d;
-    border-left: solid 1px #5d5d5d;
-}
-
-.main .content-detail .content-detail-detail .detail-table tr {
-}
-
-.main .content-detail .content-detail-detail .detail-table th {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-    height: 45px;
-}
-.main .content-detail .content-detail-detail .detail-table td {
-    border-right: solid 1px #5d5d5d;
-    border-bottom: solid 1px #5d5d5d;
-}
-
-.main .content-detail .content-detail-detail .detail-table .detail-table-title {
-    font-weight: bold;
-}
-
-.main .content-detail .content-detail-detail .detail-explain {
-    line-height: 22px;
-    margin: 36px 0 17px 0;
-}
-
-.main .content-detail .content-detail-detail .detail-explain span {
-    color: #f03f50;
 }
 
 .main .content-detail .content-detail-more {

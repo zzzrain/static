@@ -50,6 +50,10 @@ ul,li {
     text-align: center;
 }
 
+.line-through {
+    text-decoration: line-through;
+}
+
 .main {
     width: 1200px;
     margin: 0 auto;
@@ -118,4 +122,41 @@ ul,li {
 
 .main .side .side-bot .side-bot-txt {
     margin-top: 5px;
+}
+
+.main .detail-table {
+    width: 356px;
+    height: 220px;
+    margin: 10px 34px 0 0;
+    text-align: center;
+    border-top: solid 1px #5d5d5d;
+    border-left: solid 1px #5d5d5d;
+}
+
+.main .detail-table th {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    height: 45px;
+}
+.main .detail-table td {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+}
+
+.main .detail-table .detail-table-title {
+    font-weight: bold;
+}
+
+.main .detail-charts {
+    width: 358px;
+    height: 237px;
+}
+
+.main .detail-explain {
+    line-height: 22px;
+    margin: 36px 0 17px 0;
+}
+
+.main .detail-explain span {
+    color: #f03f50;
 }
