@@ -1,9 +1,15 @@
 @import "../common/common.css";
 
+.main .content-pay {
+    width: 1140px;
+    margin: 0 30px;
+}
+
 .main .content-pay .basic-title {
     font-size: 22px;
     color: #f03f50;
-    margin: 28px 0;
+    margin: 30px 0;
+    text-align: center;
 }
 
 .main .content-pay .basic-cont,
@@ -11,32 +17,298 @@
     border: solid 4px #2f2f2f;
 }
 
+.main .content-pay .basic-cont {
+    padding: 10px;
+}
+
+.main .content-pay .basic-cont .cont-wrap {
+    position: relative;
+    border: solid 1px #2f2f2f;
+    padding: 18px;
+}
+
+.main .content-pay .basic-cont .cont-wrap:before {
+    display: block;
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-right: solid 1px #2f2f2f;
+    border-bottom: solid 1px #2f2f2f;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .content-pay .basic-cont .cont-wrap:after {
+    display: block;
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-left: solid 1px #2f2f2f;
+    border-top: solid 1px #2f2f2f;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main .content-pay .content-pay-basic .cont-wrap {
+    padding: 0;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list {
+    padding: 40px 68px 10px 68px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list .w40 {
+    width: 40%;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list .w30 {
+    width: 30%;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list .basic-list-icon {
+    font-weight: bold;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-list .basic-list-title {
+    font-weight: bold;
+    display: inline-block;
+    width: 72px;
+    text-align-last: justify;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont {
+    padding: 0 130px;
+    text-align: center;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount {
+    display: inline-block;
+    margin: 60px 0 45px 0;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item {
+    width: 348px;
+    height: 165px;
+    background: url('../images/payment_no.png');
+    cursor: pointer;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item.ac {
+    background: url('../images/payment_yes.png');
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item .discount-detail {
+    color: #a22f33;
+    margin-top: 25px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item .discount-price {
+    color: #a22f33;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item .discount-price .rmb {
+    font-size: 42px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item .discount-discount {
+    color: #747474;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-discount .discount-item:first-child {
+    margin-right: 80px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-compute {
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #a22f33;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-compute .pay-basic-rmb {
+    font-size: 42px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-compute .pay-basic-o {
+    color: #747474;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code .code-item {
+    width: 185px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code .code-item:first-child {
+    margin-right: 124px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code .code-item .code-img {
+    margin: 0 0 14px 5px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code .code-item .logo-img {
+    margin-right: 10px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-code .code-item span {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-res {
+    margin-bottom: 20px;
+}
+
+.main .content-pay .content-pay-basic .pay-basic-cont .pay-basic-res p {
+    line-height: 26px;
+    font-size: 18px;
+    color: #a22f33;
+}
+
+.main .content-pay .content-pay-detail .cont-wrap {
+    padding: 60px 60px 44px 60px;
+}
+
+.main .content-pay .content-pay-detail .detail-title {
+    width: 100%;
+    font-size: 22px;
+    color: #f03f50;
+    margin-bottom: 30px;
+}
+
+.main .content-pay .content-pay-detail .detail-table {
+    width: 525px;
+    height: 220px;
+    margin-right: 34px;
+    text-align: center;
+    border-top: solid 1px #5d5d5d;
+    border-left: solid 1px #5d5d5d;
+}
+
+.main .content-pay .content-pay-detail .detail-table tr {
+}
+
+.main .content-pay .content-pay-detail .detail-table th {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    height: 45px;
+}
+.main .content-pay .content-pay-detail .detail-table td {
+    border-right: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+}
+
+.main .content-pay .content-pay-detail .detail-table .detail-table-title {
+    font-weight: bold;
+}
+
+.main .content-pay .content-pay-detail .detail-charts {
+    width: 358px;
+    height: 237px;
+}
+
+.main .content-pay .content-pay-detail .detail-explain {
+    line-height: 22px;
+    margin: 36px 0 17px 0;
+}
+
+.main .content-pay .content-pay-detail .detail-explain span {
+    color: #f03f50;
+}
+
 .main .content-pay .content-pay-list .pay-list-item {
     padding: 18px;
+    margin-bottom: 30px;
+}
+
+.main .content-pay .content-pay-list .pay-list-item-img {
+    margin: 26px 0;
 }
 
 .main .content-pay .content-pay-list .pay-list-item .pay-list-img {
     margin-right: 16px;
 }
 
+.main .content-pay .content-pay-list .pay-list-item .pay-list-cont {
+    width: 800px;
+}
+
 .main .content-pay .content-pay-list .pay-list-item .pay-list-tit {
-    width: 1000px;
+    width: 800px;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+.main .content-pay .content-pay-list .pay-list-item .pay-list-txt span {
+    color: #f03f50;
+}
+
 .main .content-pay .content-pay-list .pay-list-item .pay-list-link {
-    width: 140px;
+    width: 180px;
     height: 40px;
     line-height: 40px;
-    padding-left: 40px;
+    margin-top: 18px;
     background: #f03f50;
     color: #fff;
     cursor: pointer;
 }
 
+.main .content-pay .content-pay-list .pay-list-item .pay-list-link b {
+    display: inline-block;
+    width: 16px;
+    height: 22px;
+    margin: 10px 10px 10px 15px;
+    background: url('../images/button_icon.png');
+}
 
-.main .content-pay .content-pay-list .pay-list-item .pay-list-cont span {
+.main .content-pay .content-pay-list .pay-list-item .pay-list-link span {
+    vertical-align: top;
+}
+
+.main .content-pay .content-pay-qa .cont-wrap {
+    padding: 10px 26px;
+}
+
+.main .content-pay .content-pay-qa .qa-title {
+    text-align: center;
+    font-size: 30px;
     color: #f03f50;
+}
+
+.main .content-pay .content-pay-qa .qa-list li {
+    margin-bottom: 15px;
+}
+
+.main .content-pay .content-pay-qa .qa-list .qa-logo {
+    background: #f03f50;
+    color: #fff;
+    margin-right: 10px;
+    padding: 2px 4px;
+}
+
+.main .content-pay .content-pay-qa .qa-list .qa-cont {
+    width: 90%;
+}
+
+.main .content-pay .content-pay-qa .qa-list .qa-cont .qa-q {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
