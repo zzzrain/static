@@ -6,6 +6,7 @@ body {
     letter-spacing: 0;
     background-color: #f7f8fa;
     color: #2f2f2f;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,p {
@@ -52,6 +53,58 @@ ul,li {
 
 .line-through {
     text-decoration: line-through;
+}
+
+.header {
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #b7b7b7;
+}
+
+.header .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .header-logo {
+    margin-right: 60px;
+    color: #f03f50;
+}
+
+.header .header-logo .logo-img {
+    width: 38px;
+    height: 47px;
+    margin: 14px 3px 0 0;
+}
+
+.header .header-logo .logo-name {
+    margin-top: 5px;
+}
+
+.header .header-logo p {
+    font-family: PangMenZhengDao;
+    font-size: 28px;
+}
+
+.header .header-logo span {
+    font-size: 14px;
+}
+
+.header .header-tab li {
+    float: left;
+    line-height: 70px;
+    padding: 0 17px;
+    color: #1d1d1d;
+    cursor: pointer;
+}
+
+.header .header-tab li:first-child {
+    padding: 0 10px;
+}
+
+.header .header-tab li.ac {
+    background: #f03f50;
+    color: #fff;
 }
 
 .main {
