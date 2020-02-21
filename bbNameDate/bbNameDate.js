@@ -88,6 +88,9 @@
         }
       })
       .on('click', '.btn-ok', function () {
+        $bb.find('.almanac').each(function () {
+          $(this).removeClass('on');
+        });
         $('.leapMonth').removeClass('on');
         $showDom.val($datetime.text());
         $bb.hide();
