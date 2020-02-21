@@ -174,11 +174,16 @@
         <ul class="hd clear">
           <li class="fl datetime_input datetime"></li>
           <li class="fl datetime_radio almanac">
-            <p><input type="radio" value="1" name="almanac"><i><em></em></i><span>公历</span></p>
-            <p><input type="radio" value="2" name="almanac"><i><em></em></i><span>农历</span></p>
+            <input type="radio" value="1" name="almanac">
+            <i><em></em></i><span>公历</span>
+          </li>
+          <li class="fl datetime_radio almanac">
+            <input type="radio" value="2" name="almanac">
+            <i><em></em></i><span>农历</span>
           </li>
           <li class="fl datetime_radio leapMonth">
-            <p><input type="checkbox" value="1"><i><em></em></i><span>闰月</span></p>
+            <input type="checkbox" value="1">
+            <i><em></em></i><span>闰月</span>
           </li>
           <li class="fr btn-ok">确定</li>
         </ul>
@@ -227,7 +232,8 @@
 <script src="../bbNameDate/bbNameDate.js"></script>
 <script>
   $('body').on('focus', '#date', function () {
-    $('.date-pop').bbNameDate($('#date'));
+    $('.date-pop').bbNameDate( $('#date'));
   });
 </script>
+
 </html>

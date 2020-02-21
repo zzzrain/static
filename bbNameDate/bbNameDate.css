@@ -53,14 +53,14 @@
     display: none;
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio p {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio {
     display: inline-block;
     margin-left: 10px;
     padding: 5px 0;
     cursor: pointer;
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio p i {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio i {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -70,15 +70,15 @@
     vertical-align: bottom;
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio p.on {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio.on {
     color: #c83632;
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio p.on i {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio.on i {
     border-color: #c83632;
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio p.on em {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio.on em {
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -94,7 +94,7 @@
 
 }
 
-.bb-name-date-pl .datetime_selector .hd .datetime_radio.leapMonth p i {
+.bb-name-date-pl .datetime_selector .hd .datetime_radio.leapMonth i {
     border-radius: 0;
 }
 
